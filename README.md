@@ -16,3 +16,10 @@ This is a SSH login tool
 1:192.168.88.128:22:root:toor:虚拟机web服务器
 
 - 密钥文件放在keys文件夹下,密码位置写成密钥文件名,文件名必须以.pem结尾
+
+注意出现提示时 需要把文件的权限修改下
+WARNING: UNPROTECTED PRIVATE KEY FILE
+t is required that your private key files are NOT accessible by others.
+This private key will be ignored
+
+chmod 0600 xxx.pem
